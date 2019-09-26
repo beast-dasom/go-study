@@ -39,7 +39,7 @@ func main() {
 	// } else {
 	// 	fmt.Print("잘못 입력하셨습니다.")
 	// }
-	switch if{
+	switch line {
 	case "+":
 		fmt.Printf("%d + %d = %d", n1, n2, n1+n2)
 	case "-":
