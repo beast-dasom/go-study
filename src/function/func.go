@@ -40,7 +40,7 @@ func main() {
 	r := variableness(1, 2, 3, 4, 5)
 	fmt.Println(r)
 
-	n := []int{1, 2, 3, 4, 5}
+	n := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 	p := variableness(n...)
 
 	fmt.Println(p)
